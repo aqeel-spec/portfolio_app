@@ -30,6 +30,14 @@ import {
 import { IconWeb, IconNextjs, IconReact, IconNodejs } from '@/components/icons'
 import Quiz from '../public/quiz.png'
 import next from '../public/next.png'
+import {
+  panacloud,
+  panaverseDao,
+  pricingUi,
+  store,
+  todo,
+  twitter,
+} from '@/public/portfolio'
 
 const IconsCustm = [IconNextjs, IconReact, IconNodejs, IconWeb]
 
@@ -239,67 +247,160 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Shoe Store',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Web-based platform that allows users to shoes of famous company NIKEE, provides you your dreams shoes ',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'html5',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'css3',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: store,
+    visit: 'http://bootcamp-peo3.surge.sh/',
+    source_code_link: 'https://github.com/aqeel-spec/shoe-store-app',
   },
   {
-    name: 'Job IT',
+    name: 'Twitter clone',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'This app is created only for learning purposes , hope you will enjoy these features the App has special features hopt you will visit and please leave a comment. ',
     tags: [
       {
-        name: 'react',
+        name: 'NextJs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'tailwindCss',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'typescript',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Firebase',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    visit: 'https://twitter-orpin.vercel.app/',
+    image: twitter,
+    source_code_link: 'https://github.com/aqeel-spec/twitter-clone-app-',
   },
   {
-    name: 'Trip Guide',
+    name: 'Todo App',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Nextjs fullstack todo app , you can make notes , set timetable and a lot of amazing works can be done using this app it is up to you.  ',
     tags: [
       {
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'tailwindCss',
         color: 'green-text-gradient',
       },
       {
         name: 'css',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'typescript',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'chakra UI',
+        color: 'green-text-gradient',
+      },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: todo,
+    visit: 'https://todo-app-aqeel-spec.vercel.app/',
+    source_code_link: 'https://github.com/aqeel-spec/todo_app_nextjs13',
+  },
+  {
+    name: 'Panaverse Dao',
+    description:
+      ' All syllabus of panaverse course are updated from specialization to common , You can visit all syllabus under Nav bar courses portion ',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwindCss',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: panaverseDao,
+    visit: 'https://panaverse-dao-six-rouge.vercel.app/',
+    source_code_link: 'https://github.com/aqeel-spec/panaverse_dao',
+  },
+  {
+    name: 'Pricing UI',
+    description:
+      ' Initial pricing ui app for startUp of tailwind css , UI is created by following figma design ',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwindCss',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Figma',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: pricingUi,
+    visit: 'https://panaverse-dao-six-rouge.vercel.app/',
+    source_code_link: 'https://github.com/aqeel-spec/panaverse_dao',
+  },
+  {
+    name: 'PanaCloud',
+    description: ' Company app created by following design from figma  ',
+    tags: [
+      {
+        name: 'reactjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'bootstrap',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Figma',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: panacloud,
+    visit: 'http://statix-responsive.surge.sh/',
+    source_code_link:
+      'https://github.com/aqeel-spec/PIAIC-CSS-final-assignment-',
   },
 ]
 

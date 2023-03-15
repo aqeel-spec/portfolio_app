@@ -23,9 +23,13 @@ import {
   jobit,
   tripguide,
   threejs,
-  
+  chakra,
+  material,
+  canva,
 } from '../public/assets'
 import { IconWeb, IconNextjs, IconReact, IconNodejs } from '@/components/icons'
+import Quiz from '../public/quiz.png'
+import next from '../public/next.png'
 
 const IconsCustm = [IconNextjs, IconReact, IconNodejs, IconWeb]
 
@@ -85,13 +89,22 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'NextJs',
+    icon: next,
   },
   {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
+  {
+    name: 'Chakra UI',
+    icon: chakra,
+  },
+  {
+    name: 'Material UI',
+    icon: material,
+  },
+
   {
     name: 'Node JS',
     icon: nodejs,
@@ -104,6 +117,7 @@ const technologies = [
     name: 'Three JS',
     icon: threejs,
   },
+
   {
     name: 'git',
     icon: git,
@@ -111,6 +125,10 @@ const technologies = [
   {
     name: 'figma',
     icon: figma,
+  },
+  {
+    name: 'Canva',
+    icon: canva,
   },
   {
     name: 'docker',
@@ -121,10 +139,11 @@ const technologies = [
 const experiences = [
   {
     title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
+    company_name: 'E Store',
+    icon: mobile,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    date: 'March 2021 Jan 2022',
+    link: 'http://bootcamp-peo3.surge.sh/',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -134,10 +153,11 @@ const experiences = [
   },
   {
     title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    company_name: 'Quiz App',
+    icon: Quiz,
     iconBg: '#E6DEDD',
     date: 'Jan 2021 - Feb 2022',
+    link: 'https://quizapp-pro6.surge.sh/',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -148,6 +168,7 @@ const experiences = [
   {
     title: 'Web Developer',
     company_name: 'Shopify',
+    link: 'https://quizapp-pro6.surge.sh/',
     icon: shopify,
     iconBg: '#383E56',
     date: 'Jan 2022 - Jan 2023',
@@ -160,7 +181,23 @@ const experiences = [
   },
   {
     title: 'Full stack Developer',
+    company_name: 'Twitter clone',
+    link: 'https://twitter-orpin.vercel.app',
+    icon: next,
+    iconBg: '#E6DEDD',
+    date: 'Jan 2023 - Present',
+    points: [
+      'This app uses google signIn firebase atentication',
+      'Developing and maintaining web applications using NextJs and tailwindCSS and other related technologies.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.',
+    ],
+  },
+  {
+    title: 'Full stack Developer',
     company_name: 'Meta',
+    link: '#this',
     icon: meta,
     iconBg: '#E6DEDD',
     date: 'Jan 2023 - Present',

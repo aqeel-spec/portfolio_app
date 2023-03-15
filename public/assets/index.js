@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import chakra from './chakra.png';
+import material from './material.png';
+import canva from './canva.png';
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  chakra,
+  material,
+  canva
 };

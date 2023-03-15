@@ -4,13 +4,14 @@ import { motion } from "framer-motion";
 import { styles } from "@/app/styles";
 import { ComputersCanvas } from "./canvas";
 import Image from "next/image";
+import IconArrowDownShort from "./icons/arrowDown";
 
 const Hero = () => {
   return (
     <section className=" relative w-full h-screen mx-auto">
       <Image
         src={"/assets/herobg.png"}
-        className="object-cover  object-top w-auto m-auto z-[-1]"
+        className="object-cover  w-auto m-auto "
         fill
         alt={"background Image"}
       />
@@ -35,9 +36,28 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="pt-[30px]" />
+      <div className="pt-[60px] sm:pt-[30px]" />
       <ComputersCanvas />
-      <div className="absolute  xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <a href="#about">
+        <motion.div
+          animate={{
+            y: [0, 24, 0],
+          }}
+          transition={{
+            duration: 1.5,
+            repeat: Infinity,
+            repeatType: "loop",
+          }}
+          className="w-full rounded-full  items-center text-center absolute
+          flex justify-center 
+      
+          "
+        >
+          <IconArrowDownShort className="h-20 w-20 text-secondary cursor-pointer" />
+        </motion.div>
+      </a>
+
+      {/* <div className="absolute  xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div
             className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary
@@ -57,7 +77,7 @@ const Hero = () => {
             ></motion.div>
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };

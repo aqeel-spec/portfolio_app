@@ -23,7 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  
 } from '../public/assets'
+import { IconWeb, IconNextjs, IconReact, IconNodejs } from '@/components/icons'
+
+const IconsCustm = [IconNextjs, IconReact, IconNodejs, IconWeb]
 
 const navLinks = [
   {
@@ -262,4 +266,12 @@ const projects = [
   },
 ]
 
-export { services, technologies, experiences, testimonials, projects, navLinks }
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  navLinks,
+  IconsCustm,
+}

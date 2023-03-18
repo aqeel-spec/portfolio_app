@@ -68,10 +68,10 @@ const ProjectCard = ({
             <h3 className="text-white font-bold text-[24px] ">{name}</h3>
             <a
               href={visit}
-              className="mr-[20px]   black-gradient p-2 rounded-full"
+              className="mr-[20px]   black-gradient p-2 rounded-full "
             >
               {" "}
-              <IconIconView className="h-8 w-8 hover:text-green-300" />{" "}
+              <IconIconView className="h-8 w-8 hover:text-green-300 ease-in-out duration-300" />{" "}
             </a>
           </div>
           <p className="mt-2 text-secondary text-[14px] ">{description}</p>

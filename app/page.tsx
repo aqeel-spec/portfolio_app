@@ -9,7 +9,6 @@ import {
   Works,
   StarsCanvas,
 } from "@/components";
-import { Head } from "next/document";
 
 export default function Home() {
   return (

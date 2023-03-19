@@ -202,3 +202,53 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+.container {
+  @apply max-w-none w-auto h-[100%];
+}
+.sidebar {
+  @apply bg-sky-700;
+}
+.main {
+  @apply p-10;
+}
+header,
+footer {
+  @apply bg-gray-600 text-white py-6 px-10;
+}
+.icons-contactme {
+  @apply hover:bg-gray-700 rounded-full p-4;
+}
+
+@layer components {
+  .sidebar h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display;
+  }
+  .sidebar h1 {
+    @apply text-yellow-400 text-4xl sm:text-6xl;
+  }
+  .sidebar h2 {
+    @apply text-2xl;
+  }
+  .sidebar h3 {
+    @apply text-lg;
+  }
+  .sidebar h4 {
+    @apply text-base;
+  }
+  .sidebar p {
+    @apply text-base;
+  }
+  .btn {
+    @apply w-1/2 h-12 px-4 transition hover:text-yellow-300 hover:bg-sky-700 ease-in-out duration-200 text-black font-display uppercase text-xl;
+  }
+  .skill {
+    @apply bg-secondary text-lg py-2 px-4 w-fit rounded-md;
+  }
+  section {
+    @apply mb-10;
+  }
+}

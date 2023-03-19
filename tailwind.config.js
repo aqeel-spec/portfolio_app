@@ -9,7 +9,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
     extend: {
+      fontFamily: {
+        sanas: ["George", "sans-serif"],
+        serif: ["Merriweater", "serif"],
+        display: ["Oswald"],
+      },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",

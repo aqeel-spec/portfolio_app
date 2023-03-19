@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav
       className={`
-    ${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 
+    ${styles.paddingX} w-full flex bg-primary items-center py-5 fixed top-0 z-20 
   `}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
@@ -50,14 +50,16 @@ const Navbar = () => {
               <a href={`#${lin.id}`}>{lin.title}</a>
             </li>
           ))}
-          <button
-            onClick={() => setBtn(!btn)}
-            className={`${
-              btn ? " text-white" : " text-secondary"
-            } hover:text-white text-[18px] hover:bg-orange-600 rounded-md items-center  px-4 hover:flex-grow  font-medium cursor-pointer transition duration-200  ease-in-out`}
-          >
-            CV_templates
-          </button>
+          <a href="/app">
+            <button
+              onClick={() => setBtn(!btn)}
+              className={`${
+                btn ? " text-white" : " text-secondary"
+              } hover:text-white text-[18px] hover:bg-orange-600 rounded-md items-center  px-4 hover:flex-grow  font-medium cursor-pointer transition duration-200  ease-in-out`}
+            >
+              CV_templates
+            </button>
+          </a>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center ">
           <Image

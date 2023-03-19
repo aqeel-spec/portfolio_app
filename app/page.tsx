@@ -27,6 +27,9 @@ export default function Home() {
           <Contact />
           <StarsCanvas />
         </div>
+        <footer className="  bg-primary text-center text-sm font-bold">
+          © Copyright 2023, Aqeel Shahzad
+        </footer>
       </div>
     </>
   );

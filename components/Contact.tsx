@@ -12,7 +12,7 @@ import { slideIn } from "@/utils/motion";
 // b_URldPwjYBIuiGHr
 //
 const Contact = () => {
-  const formRef = useRef();
+  const formRef = useRef<undefined | any>();
   const [form, setForm] = useState({
     name: "",
     email: "",
